@@ -6,6 +6,7 @@ import Logo from './logo'
 import MobileNavBar from './mobile'
 import TitleList from './titleList'
 
+
 const NavBar = styled.nav`
     width: 100%;
     height: 58px;

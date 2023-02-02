@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 import App from './components/App'
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Filter from './components/filter/index'
 
 
 const GlobalStyle = createGlobalStyle`
@@ -23,6 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
         <GlobalStyle />
+        <Filter />
         <Nav />
         <Header />
         <App />
