@@ -21,10 +21,15 @@ const Login = styled.div`
         border: none;
         background-color: transparent;
         cursor: pointer;
+        transition: color 200ms ease-in-out;
     }
 
     & .active {
         background-color: ${colors.button};
+        &:hover {
+            background-color: white;
+            color: ${colors.button}
+        }
     }
 `
 

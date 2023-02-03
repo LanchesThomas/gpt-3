@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import pagesData from '../../datas/pages.json'
 import colors from '../../datas/colors'
+import { Link } from 'react-scroll'
 
 const NavUl = styled.ul`
     display: flex;
@@ -14,14 +15,14 @@ const NavePages = styled.li`
     border-bottom: 2px solid transparent;
     cursor: pointer;
     &:after {
-        display:block;
+        display: block;
         content: '';
-        border-bottom: solid 3px ${colors.primary};  
-        transform: scaleX(0);  
+        border-bottom: solid 3px ${colors.primary};
+        transform: scaleX(0);
         transition: transform 200ms ease;
     }
     &:hover:after {
-        transform: scaleX(1)
+        transform: scaleX(1);
     }
 `
 
@@ -30,7 +31,15 @@ const TitleList = () => {
         <NavUl>
             {pagesData.map((page) => (
                 <NavePages key={`title-of-${page.title}`}>
-                    {page.title}
+                    <Link
+                        to={page.id}
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={1000}
+                    >
+                        {page.title}
+                    </Link>
                 </NavePages>
             ))}
         </NavUl>

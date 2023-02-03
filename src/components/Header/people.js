@@ -1,12 +1,17 @@
 import styled from "styled-components"
 import PeoplePng from'../../assets/people.png'
+import resolution from "../../utils/resolution/resolution"
 
 const PeopleDiv = styled.div`
 display: flex;
 align-items: center;
 gap: 30px;
 padding: 20px 0px;
-`
+@media (max-width: ${resolution.medium}) {
+  flex-direction: column;
+  gap: 10px;
+}
+ `
 
 const PeopleImg = styled.img`
 height: 36px;

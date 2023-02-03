@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import pagesData from '../../datas/pages.json'
 import LoginButton from './button'
 import useWindowDimensions from '../../utils/hooks/useWindowDimensions'
 import Logo from './logo'
 import MobileNavBar from './mobile'
 import TitleList from './titleList'
+
 
 
 const NavBar = styled.nav`

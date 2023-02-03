@@ -1,9 +1,13 @@
 import styled from 'styled-components'
+import resolution from '../../utils/resolution/resolution'
 
 const Text = styled.h3`
 font-size: 20px;
 font-weight: 400;
-color: #81AFDD
+color: #81AFDD;
+@media (max-width: ${resolution.medium}) {
+    font-size: 16px;
+}
 `
 
 const Description = () => {

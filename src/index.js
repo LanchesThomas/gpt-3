@@ -1,16 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createGlobalStyle } from 'styled-components'
-import App from './components/App'
+import styled from 'styled-components'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Filter from './components/filter/index'
-
+import resolution from './utils/resolution/resolution'
+import Partners from './components/partners'
+import About from './components/About'
+import OpenAi from './components/openAi'
 
 const GlobalStyle = createGlobalStyle`
 body {
   background: #040C18;
   font-family: 'Manrope', sans-serif;
+  min-width: ${resolution.min}
   
 }
 * {
@@ -20,6 +24,8 @@ body {
 }
 `
 
+const Main = styled.main``
+
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <React.StrictMode>
@@ -27,6 +33,10 @@ root.render(
         <Filter />
         <Nav />
         <Header />
-        <App />
+        <Main>
+            <Partners />
+            <About />
+            <OpenAi />
+        </Main>
     </React.StrictMode>
 )

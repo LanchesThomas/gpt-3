@@ -15,6 +15,7 @@ const MobileNavBarDiv = styled.div`
     justify-content: space-between;
     padding-left: 5%;
     position: relative;
+    position: sticky;
 
 `
 

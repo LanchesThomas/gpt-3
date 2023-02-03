@@ -1,17 +1,23 @@
 [
     {
+        "id": "home",
         "title": "Home"
+        
     },
     {
+        "id": "what-is-gpt",
         "title": "What Is GPT?"
     },
     {
+        "id": "open-ai",
         "title": "Open AI"
     },
     {
+        "id": "case-studies",
         "title": "Case Studies"
     },
     {
+        "id": "library",
         "title": "Library"
     }    
 ]

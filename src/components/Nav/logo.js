@@ -1,10 +1,18 @@
 import styled from 'styled-components'
+
+
 const LogoText = styled.h3`
     font-weight: 800;
+    cursor: pointer;
+`
+
+const LogoLink = styled.a`
+text-decoration: none;
+color: inherit;
 `
 
 const Logo = () => {
-    return <LogoText>GPT-3</LogoText>
+    return <LogoText><LogoLink href='/'>GPT-3</LogoLink></LogoText>
 }
 
 export default Logo

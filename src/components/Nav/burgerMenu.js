@@ -3,6 +3,7 @@ import Button from './button'
 import TitleList from './titleList'
 import useWindowDimensions from '../../utils/hooks/useWindowDimensions'
 import { menuAnimation } from '../../utils/animation'
+import colors from '../../datas/colors'
 
 const BurgerMenuDiv = styled.div`
     position: absolute;
@@ -16,7 +17,7 @@ const BurgerMenuDiv = styled.div`
     animation : ${menuAnimation};
     animation-duration: 200ms;
     animation-timing-function: ease-in-out;
-    background-color: transparent;
+    background-color: ${colors.background};
 
     & ul {
         flex-direction: column;

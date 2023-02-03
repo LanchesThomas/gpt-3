@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Google",
+        "image": "../../assets/google.png",
+        "url" : "http://Google.com"
+    },
+    {
+        "title": "Slack",
+        "image": "../../assets/slack.png",
+        "url" : "http://Slack.com"
+    },
+    {
+        "title": "Atlassian",
+        "image": "../../assets/atlassian.png",
+        "url" : "http://Atlassian.com"
+    },
+    {
+        "title": "DropBox",
+        "image": "../../assets/dropbox.png",
+        "url" : "http://DropBox.com"
+    },
+    {
+        "title": "Shopify",
+        "image": "../../assets/shopify.png",
+        "url" : "http://Shopify.com"
+    }
+    
+
+]
