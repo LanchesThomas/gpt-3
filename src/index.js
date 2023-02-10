@@ -11,6 +11,7 @@ import About from './components/About'
 import OpenAi from './components/openAi'
 import Possibilities from './components/possibilities'
 import Register from './components/register'
+import Library from './components/library'
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -41,6 +42,7 @@ root.render(
             <OpenAi />
             <Possibilities />
             <Register />
+            <Library />
         </Main>
     </React.StrictMode>
 )

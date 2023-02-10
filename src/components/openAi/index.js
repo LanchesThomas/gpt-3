@@ -134,12 +134,12 @@ const OpenAi = () => {
             <SubContentDiv id="item-0">
                 <SubTitleDiv>
                     {openAiData.map((data) => (
-                        <SubTitle>{data.title}</SubTitle>
+                        <SubTitle key={data.title}>{data.title}</SubTitle>
                     ))}
                 </SubTitleDiv>
                 <ContentDiv>
                     {openAiData.map((data) => (
-                        <Content>{data.content}</Content>
+                        <Content key={`${data.title}-content`}>{data.content}</Content>
                     ))}
                 </ContentDiv>
             </SubContentDiv>
