@@ -24,7 +24,7 @@ const Title = styled.h2`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     @media (max-width: ${resolution.medium}) {
-        font-size: 46px;
+        font-size: 31px;
     }
 `
 

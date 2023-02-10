@@ -13,6 +13,7 @@ const RegisterDiv = styled.div`
     flex-direction: column;
     gap: 50px;
     padding: 25px 15px;
+    margin: 50px auto;
 }
 `
 
@@ -26,6 +27,7 @@ const ContentDiv = styled.div`
 
     @media (max-width: ${resolution.large}) {
         align-items: center;
+        flex-direction: column-reverse;
     }
 `
 

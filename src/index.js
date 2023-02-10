@@ -12,6 +12,7 @@ import OpenAi from './components/openAi'
 import Possibilities from './components/possibilities'
 import Register from './components/register'
 import Library from './components/library'
+import Footer from './components/footer'
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -44,5 +45,6 @@ root.render(
             <Register />
             <Library />
         </Main>
+        <Footer />
     </React.StrictMode>
 )
