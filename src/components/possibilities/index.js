@@ -66,7 +66,7 @@ const Description = styled.p`
 
 const Possibilities = () => {
     return (
-        <PossibilitiesDiv>
+        <PossibilitiesDiv id='case-studies'>
             <ImgDiv>
                 <PossibilitiesImg src={PossibilitiesPng} />
             </ImgDiv>
