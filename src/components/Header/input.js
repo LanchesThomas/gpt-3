@@ -15,7 +15,7 @@ const InputField = styled.input`
     border: none;
     font-size: 20px;
     font-weight: 400;
-    color: #3d6184;
+    color: white;
     padding: 20px;
     @media (max-width: ${resolution.medium}) {
         height: 35px;

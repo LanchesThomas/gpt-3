@@ -47,6 +47,7 @@ const Request = styled.p`
 
 const SubContentDiv = styled.div`
     display: flex;
+
     @media (max-width: ${resolution.large}) {
         gap: 30px;
     }
@@ -93,6 +94,7 @@ const ContentDiv = styled.div`
     gap: 25px;
     justify-content: space-between;
     align-items: center;
+
 `
 
 const Content = styled.p`

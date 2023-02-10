@@ -9,6 +9,7 @@ import resolution from './utils/resolution/resolution'
 import Partners from './components/partners'
 import About from './components/About'
 import OpenAi from './components/openAi'
+import Possibilities from './components/possibilities'
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -37,6 +38,7 @@ root.render(
             <Partners />
             <About />
             <OpenAi />
+            <Possibilities />
         </Main>
     </React.StrictMode>
 )
