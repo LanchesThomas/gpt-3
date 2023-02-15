@@ -12,7 +12,7 @@ color: inherit;
 `
 
 const Logo = () => {
-    return <LogoText><LogoLink href='/'>GPT-3</LogoLink></LogoText>
+    return <LogoText><LogoLink href='/'>lanchesthomas</LogoLink></LogoText>
 }
 
 export default Logo
