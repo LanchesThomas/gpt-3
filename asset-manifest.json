@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/gpt-3/static/js/main.29de6b73.js",
+    "static/media/ai.png": "/gpt-3/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/gpt-3/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/people.png": "/gpt-3/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/gpt-3/index.html",
+    "main.29de6b73.js.map": "/gpt-3/static/js/main.29de6b73.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.29de6b73.js"
+  ]
+}
