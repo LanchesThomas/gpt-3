@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import articleData from '../../datas/articleData.json'
+import {ArticleData} from '../../datas/articleData'
 import resolution from '../../utils/resolution/resolution'
 
 const ArticleDiv = styled.div`
@@ -81,7 +81,7 @@ const Read = styled.p`
 const Arcticle = ({ image, date, title, read }) => {
     return (
         <ArticleDiv>
-            {articleData.map((article, index) => (
+            {ArticleData.map((article, index) => (
                 <Article id={`article-${index}`}>
                     <ImgDiv>
                         <Img src={article.image} />

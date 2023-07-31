@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import PartnersData from '../../datas/partners.json'
+import { Partners as PartnersData } from '../../datas/partners.js'
 import resolution from '../../utils/resolution/resolution'
 
 const PartnerDiv = styled.div`
